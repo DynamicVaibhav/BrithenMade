@@ -1,0 +1,20 @@
+{
+  "name": "brithenmade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mongoose": "^5.12.10",
+    "nodemon": "^2.0.7",
+    "vaibhav": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "",
+  "license": "ISC"
+}

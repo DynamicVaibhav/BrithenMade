@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Brithen Made</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="http://templatesworld.net/projects/contact-forms/css/bootstrap-reboot.css">
+    <link href="http://templatesworld.net/projects/contact-forms/css/bootstrap-grid.css" rel="stylesheet">
+    <link href="http://templatesworld.net/projects/contact-forms/css/bootstrap.css" rel="stylesheet">
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- icon -->
+    <link href="http://templatesworld.net/projects/contact-forms/libs/font-awesome/css/font-awesome.min.css"
+        rel="stylesheet">
+    <!-- index css -->
+    <link href="http://templatesworld.net/projects/contact-forms/css/main.css" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+
+<body>
+    <!-- content -->
+    <main id="content">
+        <section class="form_ten">
+            <div class="container-fluid">
+                <div class="row no-gutters align-items-center">
+                    <div class="col-md-4">
+                        <div class="row no-gutters align-items-center inform_wrapper">
+                            <div class="col-md-12">
+                                <div class="wrapp">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <i class="fa fa-user-circle user_icon" aria-hidden="true"></i>
+                                            <h1>Hello there!</h1>
+                                            <p>I am Dynamic_Vaibhav <br>FEEL safe</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 text-center">
+                        <div class="form_wrapper">
+                            <h2 class="title">Sign In</h2>
+
+
+                            <form id="gform" class="needs-validation" method="POST" action="/register">
+                                <label class="sr-only"></label>
+
+
+
+
+                                <input type="text" placeholder="Your Name" name="Name" class="form-control">
+
+                                <input type="hidden" name="contactFormTemplate" value="Contact form template">
+
+
+                                <div class="form-group">
+
+
+                                    <input type="email" name="email" class="form-control" placeholder="Email"
+                                        oninvalid="this.setCustomValidity('Email address must contain the symbol @')"
+                                        oninput="setCustomValidity('')">
+                                </div>
+
+                                <div class="form-group">
+
+
+
+                                    <input type="Number" name="phonenumber" class="form-control"
+                                        placeholder="Phone Number">
+
+
+
+
+                                </div>
+
+                                <div class="form-group">
+
+
+
+
+
+                                    <input type="password" name="Password" class="form-control" placeholder="Password">
+
+
+
+
+                                    <input type="text" name="Age" class="form-control" placeholder="your age">
+
+
+
+                                </div>
+
+                                <div style="display: none;" id="email-invalid" class="thankyou_message">
+                                    <h5>Invalid Email</h5>
+                                </div>
+
+                                <button type="submit" class="get_started_btn">Sign In</button>
+
+                            </form>
+                            <div style="display: none;" id="thankyou_message" class="thankyou_message">
+                                <h3>Congratulations, you are logged in!</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    {{>footer}}
+    <!-- jquery -->
+    <script src="http://templatesworld.net/projects/contact-forms/js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="http://templatesworld.net/projects/contact-forms/js/bootstrap.bundle.min.js"></script>
+    <script src="http://templatesworld.net/projects/contact-forms/js/bootstrap.js"></script>
+    <!-- google form -->
+    <script src="http://templatesworld.net/projects/contact-forms/google-form/form-submission-handler.js"></script>
+</body>
+
+</html>
